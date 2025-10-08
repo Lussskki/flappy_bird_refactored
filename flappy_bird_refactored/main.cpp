@@ -1,7 +1,8 @@
-#include <iostream>
-using namespace std;
+#include "Window.h"
 
 int main()
 {
-	cout << "Hello World" << endl;
+    Window game;
+    game.run();
+    return 0;
 }
